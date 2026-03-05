@@ -1,32 +1,24 @@
-// MENU FILTER
-function filterMenu(category) {
-    const items = document.querySelectorAll('.menu-item');
-    items.forEach(item => {
-        if(category === 'all') {
-            item.style.display = 'block';
-        } else {
-            item.style.display = item.classList.contains(category) ? 'block' : 'none';
-        }
-    });
+// Order Now button
+function orderNow() {
+    alert("Thank you for your order! Visit us soon.");
 }
 
-// FORM VALIDATION
-const form = document.getElementById('contactForm');
-const feedback = document.getElementById('formFeedback');
+// Contact Form Validation
+document.addEventListener("DOMContentLoaded", function() {
+    const form = document.getElementById("contactForm");
+    if (form) {
+        form.addEventListener("submit", function(e) {
+            e.preventDefault();
+            const name = document.getElementById("name").value.trim();
+            const email = document.getElementById("email").value.trim();
+            const message = document.getElementById("message").value.trim();
 
-form.addEventListener('submit', function(e) {
-    e.preventDefault();
-    
-    const name = form.name.value.trim();
-    const email = form.email.value.trim();
-    const message = form.message.value.trim();
-
-    if(name === "" || email === "" || message === "") {
-        feedback.textContent = "Please fill in all fields!";
-        feedback.style.color = "red";
-    } else {
-        feedback.textContent = "Thank you for your message!";
-        feedback.style.color = "green";
-        form.reset();
+            if (!name || !email || !message) {
+                alert("Please fill in all fields.");
+            } else {
+                alert("Thank you for contacting FreshBite Café!");
+                form.reset();
+            }
+        });
     }
 });
