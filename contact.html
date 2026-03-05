@@ -1,8 +1,44 @@
-<section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - FreshBite Café</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+    <div class="logo">FreshBite Café</div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="contact-section">
     <h2>Contact Us</h2>
+
     <form id="contactForm">
-        <input type="text" id="name" placeholder="Your Name" required><br><br>
-        <input type="email" id="email" placeholder="Your Email" required><br><br>
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
         <button type="submit">Submit</button>
     </form>
+
+    <p>Or reach us at:</p>
+    <p>Phone: (555) 123-4567</p>
+    <p>Address: 123 Coffee Lane, YourCity</p>
 </section>
+
+<footer>
+    <p>&copy; 2026 FreshBite Café | 123 Coffee Lane | Follow us: 
+        <a href="#">Facebook</a> | <a href="#">Instagram</a>
+    </p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
