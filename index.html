@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshBit Café</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- HEADER / NAVIGATION -->
+    <header>
+        <div class="logo">FreshBit Café</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Welcome to FreshBit Café</h1>
+            <p>Your cozy spot for coffee, pastries, and community.</p>
+            <a href="#menu" class="btn">See Menu</a>
+        </div>
+    </section>
+
+    <!-- MENU SECTION -->
+    <section id="menu" class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="menu-filters">
+            <button class="filter-btn" onclick="filterMenu('all')">All</button>
+            <button class="filter-btn" onclick="filterMenu('coffee')">Coffee</button>
+            <button class="filter-btn" onclick="filterMenu('tea')">Tea</button>
+            <button class="filter-btn" onclick="filterMenu('pastry')">Pastry</button>
+        </div>
+        <div class="menu-items">
+            <div class="menu-item coffee">
+                <img src="images/coffee1.jpg" alt="Espresso">
+                <h3>Espresso</h3>
+                <p>Rich, bold coffee shot.</p>
+            </div>
+            <div class="menu-item tea">
+                <img src="images/tea1.jpg" alt="Green Tea">
+                <h3>Green Tea</h3>
+                <p>Refreshing and healthy.</p>
+            </div>
+            <div class="menu-item pastry">
+                <img src="images/croissant.jpg" alt="Croissant">
+                <h3>Croissant</h3>
+                <p>Flaky and buttery.</p>
+            </div>
+            <!-- Add more items here -->
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>FreshBit Café brings the community together over high-quality coffee, delicious food, and a welcoming space for all.</p>
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section id="gallery" class="gallery-section">
+        <h2>Gallery</h2>
+        <div class="gallery-images">
+            <img src="images/cafe1.jpg" alt="Café interior">
+            <img src="images/cafe2.jpg" alt="Coffee art">
+            <img src="images/cafe3.jpg" alt="Pastries">
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <p id="formFeedback"></p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 FreshBit Café | 123 Coffee St, YourCity | Follow us: 
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
