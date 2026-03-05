@@ -1,6 +1,8 @@
-function orderNow(){ alert("Thank you for your order! Visit us soon."); }
+function orderNow() {
+    alert("Thank you for your order! Visit us soon.");
+}
 
-document.addEventListener("DOMContentLoaded", function(){
+document.addEventListener("DOMContentLoaded", function() {
     const form = document.getElementById("contactForm");
     if(form){
         form.addEventListener("submit", function(e){
