@@ -1,218 +1,92 @@
+PART ONE: CONTENT
+
+Business name: FreshBite Café
+Business type: Fictional or real concept (will be able to apply the concept of real café)
+Services/Products Provided:
+Coffee – Specialty – (Espresso, Latte, Cappuccino)
+Tea & all beverages
+Breakfast Foods – (Avocado toast, sandwiches)
+Pastries – (Muffins, croissants.
+Target audience of business: Individuals residing closest, students (college), remote employees, coffee aficionados searching for exceptional quality coffee and food items.
+Problem/business solving aspect: A cozy, convenient environment for people to sit, work, socialize, and have access to high-quality fresh coffee, food, and a comfortable work/social space.
+Business differentiation factor: Entire menu items made with locally sourced products.
+Pastries made from scratch, in-house fresh daily.
+Atmosphere; environment of workplace and community.
+Preparation processes for high-quality coffee.
+Pages of website: Homepage, About Us, Menu, Contact Us.
+Mission Statement: “FreshBite Café is committed to providing high-quality, fresh food and beverage products in an inviting, warm atmosphere so that all customers feel as if they belong.”
+Tone of writing: Friendly, Approachable, Modern in Nature.
+Call to Action: “Order Now” button for website visitors.
+Encouraged to get in touch with the café through the contact form.
+Homepage includes the following info:
+Hero image/text at the top of the page - "Fresh Coffee. Fresh Start."
+Display an image, write a description of 5 displayed food/coffee items.
+Call-to-action button – "Order Now".
+Media on the site - will include pictures of; fresh coffee, pastries, sandwiches, and the interior of the café.
+Purpose of media; keep users engaged visually, to display the product. 
+
+
+ DESIGN: PART II
+Design:
+The overall design style is:
+Modern, Minimal /Clean and inviting.
+The color scheme used for this website is:
+PRIMARY = # 2E7D32 (green) utilized with the brand and buttons.
+SECONDARY = White (#fff) / Light grey (#f4f4f4) used for backgrounds.
+Rationale: Green represents the fresh approach we take towards our all-natural ingredients; and white provides good readability.
+Fonts:
+Headings: Bold Sans Serif (Arial, Helvetica, etc...) the way the systems will do it.
+Body: Regular Sans Serif Used for Reading Ease.
+Spacing & Layout (for reading ease):
+Separate each section with padding (40-60px).
+Separate Featured Items using Flexbox/Grid for clarity.
+Keep consistent spacing between text/images/buttons.
+Visual Hierarchy:
+Hero Banner | Featured Items | Menu | Call to action
+Larger Headings for Main Sections with Bold Buttons for Actions.
+Consistent across all pages:
+Same Navigation Bar, Fonts, Colors, and Spacing used.
+Icons:
+(Small Coffee Cup Icons, Optionally.) May also use Soul Book or Other Font Awesome So.
+Emotional Evocations Created By Design:
+Warmth, Friendliness, Trust, and Appeal to the Appetite.
+Accessibility:
+High Contrast Text vs. Background.
+Responsive Font Sizes.
+Images must have Alt Text.
+Inspiration Sources:
+Local Coffee Shops | Instagram Café Aesthetics | Minimalistic Food Websites.
+Homepage layout / wireframe:
+Header (Logo + Nav)
+---------------------------------
+Hero Banner (image + slogan + CTA button)
+---------------------------------
+Featured Favorites (3 cards with images & descriptions)
+---------------------------------
+Footer (Contact info or links)
+
+
+PART THREE OF INTERACTIVITY
+Interactive elements:
+A navigation menu will highlight the current page with link highlighting.
+An order now button will alert the user when they click on it.
+A contact form will validate form input(s) for submission errors.
+Featured items in the menu will have hover effects, which will provide visual feedback to users about their click.
+Nav bar Menu:
+Top horizontal menu with links to home, about, menu, and contact.
+Current page will be identified with the .active class.
+Ensure all fields are filled in before submitting the form.
+JavaScript will prompt a warning message to users on any field left blank.
+Upon successful form submission, a "Thank you" message will be displayed to the user.
+JavaScript Functionality:
+To Alert Users.
+Javascript validation for Submitted Form.
+Optionally - highlight nav links dynamically
+How Interactivity will Improve User Experience:
+Instant feedback to the user.
+Prevent incomplete submission of the form.
+Add engagement by providing visual feedback to the user when hovering over items and providing clear calls to action.
+Make it easy for the user to navigate your site.
 
-# freshgit-cafe-website
 
-### Website Project for FreshBite Café
-
-## 1. Overview of the Application
-
-**FreshBite Café** is an imaginary local coffee shop website built as a web development project. The site was developed using **HTML, CSS, and JavaScript** and is hosted on **GitHub Pages**.
-
-The purpose of the website is to:
-
-* Advertise the café and its menu
-* Provide business information to visitors
-* Allow users to contact the café electronically
-
----
-
-## 2. Business Idea
-
-**Business Name:**
-FreshBite Café
-
-**Type:**
-Fictional Business
-
-### Products / Services
-
-* Coffee (Latte, Cappuccino, Espresso)
-* Tea
-* Breakfast Items
-* Sandwiches
-* Pastries
-
-### Solution Offered
-
-FreshBite Café offers **affordable, freshly prepared food and coffee** to customers in a pleasant and relaxed environment.
-
-### Unique Attributes
-
-* Locally sourced ingredients
-* Study-friendly café environment
-* Student discounts available
-
-### Mission Statement
-
-> “FreshBite Café is committed to providing our customers with fresh, high-quality, tasty coffee and food in a warm and friendly environment.”
-
----
-
-## 3. Target Customers
-
-**Primary Audience**
-
-* College Students
-* Local Residents
-* Nearby Office Workers
-* Coffee Lovers
-
-The website was designed to be **simple and easy to navigate**, ensuring that users of all technical skill levels can access the information they need.
-
----
-
-## 4. Content Strategy
-
-The website contains **four pages**:
-
-* **Home** (`index.html`)
-* **About Us** (`about.html`)
-* **Menu** (`menu.html`)
-* **Contact Us** (`contact.html`)
-
-Each page includes:
-
-* A consistent **header and navigation bar**
-* Unique content sections
-* A **footer with copyright information**
-
----
-
-## 5. Information Organization
-
-A **top-level navigation bar** appears on every page to allow users to easily move through the website.
-
-Navigation structure:
-
-Home → About → Menu → Contact
-
-The **homepage** highlights:
-
-* The café name
-* A motto
-* A call-to-action button
-* A clean, minimal layout to avoid overwhelming visitors
-
----
-
-## 6. Visual Design
-
-**Style:** Contemporary / Modern Café Theme
-
-**Color Palette**
-
-* Green (Pantone 4C) – headers and branding
-* White – background and contrast
-* Black and gray – body text
-
-**Typography**
-
-* Font: Arial
-* Bold headings
-* Regular body text for readability
-
-**Layout**
-
-* Center-aligned elements
-* Adequate spacing between sections
-* Consistent header and footer across all pages to improve navigation and usability
-
----
-
-## 7. Page Layout Structure
-
-```
-------------------------------------------------
-| Logo | Home | About | Menu | Contact        |
-------------------------------------------------
-|        Fresh Coffee. Fresh Start.            |
-|              [ Order Now ]                   |
-------------------------------------------------
-|  Featured Items Section                      |
-------------------------------------------------
-|  About Section                               |
-------------------------------------------------
-|  Footer                                      |
-------------------------------------------------
-```
-
----
-
-## 8. Interactive Features / Functionality
-
-The website includes several interactive components:
-
-### Order Now Button
-
-* Displays a **JavaScript alert message** when clicked.
-
-### Contact Form
-
-* Users must enter:
-
-  * Name
-  * Email address
-
-### Form Validation
-
-JavaScript checks that required fields are not empty.
-
-If fields are empty:
-
-* An **error message** is displayed.
-
-If successfully submitted:
-
-* A **success confirmation message** appears.
-
-This provides **instant feedback** to users and helps prevent incomplete form submissions.
-
----
-
-## 9. Accessibility Features
-
-Accessibility considerations include:
-
-* High color contrast (green header with white text)
-* Simple and readable font
-* Clear navigation links
-* Large clickable buttons
-* Basic form validation for usability
-
----
-
-## 10. Technical Overview
-
-This website was developed using:
-
-* **HTML5** – site structure
-* **CSS3** – styling and layout
-* **JavaScript** – interactivity and form validation
-
-The site is hosted on **GitHub Pages using the repository **freshgit-cafe-website**.
-
-All code was written specifically for this project.
-
----
-
-## 11. Timeline / Milestones
-
-**Week 1 – Planning**
-
-* Develop business concept
-* Plan layout and design
-
-**Week 2 – Structure**
-
-* Build HTML pages
-* Implement navigation
-
-**Week 3 – Styling & Interactivity**
-
-* Apply CSS styling
-* Add JavaScript functionality
-
-**Week 4 – Testing & Deployment**
-
-* Test usability and functionality
-* Deploy website using **GitHub Pages**
 
