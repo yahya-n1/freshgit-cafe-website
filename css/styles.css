@@ -205,3 +205,10 @@ border-radius:5px;
 .cta button:hover{
 background:#eee;
 }
+.map-container{
+margin:20px auto;
+max-width:800px;
+border-radius:8px;
+overflow:hidden;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
