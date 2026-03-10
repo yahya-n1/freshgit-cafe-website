@@ -64,6 +64,15 @@ border-radius:8px;
 margin-bottom:10px;
 }
 
+.item h3{
+margin-top:5px;
+}
+
+.item p{
+line-height:1.4;
+color:#555;
+}
+
 .item span{
 display:block;
 margin-top:10px;
