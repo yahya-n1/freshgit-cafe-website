@@ -25,6 +25,51 @@ nav a.active { text-decoration:underline; }
     nav { flex-direction:column; }
     .featured-items { flex-direction:column; align-items:center; }
 }
+.featured{
+padding:60px 20px;
+background:#f9f9f9;
+text-align:center;
+}
+
+.featured h2{
+margin-bottom:40px;
+font-size:32px;
+}
+
+.featured-items{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:30px;
+max-width:1000px;
+margin:auto;
+}
+
+.item{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+transition:transform 0.2s;
+}
+
+.item:hover{
+transform:scale(1.05);
+}
+
+.item img{
+width:100%;
+height:160px;
+object-fit:cover;
+border-radius:8px;
+margin-bottom:10px;
+}
+
+.item span{
+display:block;
+margin-top:10px;
+font-weight:bold;
+color:#2E7D32;
+}
 .menu-page{
 padding:50px 20px;
 text-align:center;
